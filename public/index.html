@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>pokemon-game</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Cabin+Sketch:400,700|Freckle+Face|Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <div class="select-screen">
+      <div class="header">
+        <div class="mode">VS Mode</div>
+        <div class="title">
+          Choose a Pokemon
+        </div>
+      </div>
+      <div class="main">
+        <div class="character charmander" data-pokemon="charmander">
+          <div class="title">Charmander</div>
+          <div style="background: url(http://www.smogon.com/dex/media/sprites/xy/charmander.gif) no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;height: 100px; width: 100px;"></div>
+        </div>
+
+        <div class="character bulbasaur" data-pokemon="bulbasaur">
+          <div class="title">Bulbasaur</div>
+          <div style="background: url(http://www.smogon.com/dex/media/sprites/xy/bulbasaur.gif) no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;height: 100px; width: 100px;"></div>
+        </div>
+
+        <div class="character squirtle" data-pokemon="squirtle">
+          <div class="title">Squirtle</div>
+          <div style="background: url(http://www.smogon.com/dex/media/sprites/xy/squirtle.gif) no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;height: 100px; width: 100px;"></div>
+        </div>
+      </div>
+    </div>
+
+  <div id="battle-screen">
+    <div class="fight-btn">
+     fight
+    </div>
+
+   <div class="battle-btns">
+     <div class="attack rock" data-attack= "rock">
+       <img src="//i.imgur.com/0sWAgmm.png" width="100%">
+      cartoonish Rock
+     </div>
+     <div class="attack paper" data-attack= "paper">
+       <img src="//i.imgur.com/aU8NcKH.png">
+       shit Paper
+     </div>
+     <div class="attack scissors" data-attack= "scissors">
+       <img src="//i.imgur.com/n4HFHgj.png">
+      medical Scissors
+     </div>
+   </div>
+
+   <div class="player">
+     <div class="player1">
+       <div class="stats">
+         <div class="name">
+
+           <div class="level">
+             Lv5
+           </div>
+         </div>
+
+         <div class="health">
+           <div class="title">HP:</div>
+           <div class="health-bar">
+             <div class="inside" style="width: 100%;"></div>
+           </div>
+         </div>
+
+       </div>
+       <img src="http://www.smogon.com/dex/media/sprites/xy/charmander.gif" />
+
+     </div>
+   </div>
+
+   <div class="cpu">
+     <div class="player2">
+       <div class="stats">
+         <div class="name">
+           Charmander
+           <div class="level">
+             Lv5
+           </div>
+         </div>
+
+         <div class="health">
+           <div class="title">HP:</div>
+           <div class="health-bar">
+             <div class="inside" style="width: 100%;"></div>
+           </div>
+         </div>
+
+       </div>
+       <img src="http://www.smogon.com/dex/media/sprites/xy/charmander.gif" />
+     </div>
+   </div>
+  </div>
+
+
+
+
+
+  <script src="/js/components/vendor.js"></script>
+  <script src="/js/components/regularJS.js"></script>
+  </body>
+</html>
